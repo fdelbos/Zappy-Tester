@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Zappy Tester</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;h3&gt;Zappy Tester&lt;/h3&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>631</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Hote :</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="host"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Port:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="port"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Team:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="team"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="connection">
+      <property name="text">
+       <string>Connexion</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>781</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="commandsBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>211</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Commandes</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>211</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="avance">
+       <property name="text">
+        <string>Avance</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="gauche">
+         <property name="text">
+          <string>Gauche</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="droite">
+         <property name="text">
+          <string>Droite</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="voir">
+       <property name="text">
+        <string>Voir</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="inventaire">
+       <property name="text">
+        <string>Inventaire</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="fork">
+       <property name="text">
+        <string>Fork</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="incantation">
+       <property name="text">
+        <string>Incantation</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QComboBox" name="prendSelect">
+         <item>
+          <property name="text">
+           <string>nourriture</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>linemate</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>deraumere</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>sibur</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>mendiane</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>phiras</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>thystame</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>bidon</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="prend">
+         <property name="text">
+          <string>Prend</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QComboBox" name="poseSelect">
+         <item>
+          <property name="text">
+           <string>nourriture</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>linemate</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>deraumere</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>sibur</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>mendiane</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>phiras</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>thystame</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>bidon</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pose">
+         <property name="text">
+          <string>Pose</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="expulse">
+       <property name="text">
+        <string>Expulse</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="connectNbr">
+       <property name="text">
+        <string>Connect nbr</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="broadcastMsg"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="broadcast">
+       <property name="text">
+        <string>Broadcast</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="commandeBidonMsg"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="commandeBidon">
+       <property name="text">
+        <string>Commande bidon</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="shell">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>60</y>
+     <width>561</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
